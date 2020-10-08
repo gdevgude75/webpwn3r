@@ -8,7 +8,7 @@ import urllib
 from headers import *
 from vulnz import *
 
-print ga.green+'''
+print (ga.green+'''
 	    __          __  _     _____                 ____       
 	    \ \        / / | |   |  __ \               |___ \      
 	     \ \  /\  / /__| |__ | |__) |_      ___ __   __) |_ __ 
@@ -24,7 +24,7 @@ print ga.green+'''
 	#|  Thanks @lnxg33k, @dia2diab @Aelhemily, @okamalo          #
 	#|  More Details: http://www.sec-down.com/wordpress/?p=373   #
         ##############################################################
-        '''+ga.end
+        '''+ga.end)
 
 def urls_or_list():
 	url_or_list = raw_input(" [!] Scan URL or List of URLs? [1/2]: ")
